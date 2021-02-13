@@ -5,7 +5,7 @@
 
 <mapper namespace="com.java.mapper.GoodsMapper">
 
-    <!--查询商品详细信息-->
+    <!--查询商品详细信息ceshi-->
     <select id="selectGoodsDetail" resultType="Map">
         SELECT gd.id detailId,gd.sort_id sortId,gd.name,gd.address,gd.price,
         DATE_FORMAT(gd.create_date,'%Y-%m-%d %H:%i:%s')createDate,gd.remaining,gs.name sortName
