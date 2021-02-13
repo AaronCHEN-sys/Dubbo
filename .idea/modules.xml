@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/db-shop-commons-interface/db-shop-commons-interface.iml" filepath="$PROJECT_DIR$/db-shop-commons-interface/db-shop-commons-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-shop-consumer/db-shop-consumer.iml" filepath="$PROJECT_DIR$/db-shop-consumer/db-shop-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-shop-pojo/db-shop-pojo.iml" filepath="$PROJECT_DIR$/db-shop-pojo/db-shop-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-shop-provider1/db-shop-provider1.iml" filepath="$PROJECT_DIR$/db-shop-provider1/db-shop-provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-shop-provider2/db-shop-provider2.iml" filepath="$PROJECT_DIR$/db-shop-provider2/db-shop-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo.iml" filepath="$PROJECT_DIR$/springboot-dubbo.iml" />
+    </modules>
+  </component>
+</project>

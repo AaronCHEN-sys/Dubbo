@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.java.mapper.GoodsMapper">
+
+    <!--查询商品详细信息-->
+    <select id="selectGoodsDetail" resultType="Map">
+        SELECT gd.id detailId,gd.sort_id sortId,gd.name,gd.address,gd.price,
+        DATE_FORMAT(gd.create_date,'%Y-%m-%d %H:%i:%s')createDate,gd.remaining,gs.name sortName
+        FROM goods_detail gd INNER JOIN goods_sort gs
+        ON gd.sort_id=gs.id
+    </select>
+</mapper>

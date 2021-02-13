@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="db-shop-commons-interface" />
+        <module name="db-shop-consumer" />
+        <module name="db-shop-pojo" />
+        <module name="db-shop-provider1" />
+        <module name="db-shop-provider2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="db-shop-commons-interface" target="1.6" />
+      <module name="db-shop-consumer" target="1.6" />
+      <module name="db-shop-pojo" target="1.6" />
+      <module name="db-shop-provider1" target="1.6" />
+      <module name="db-shop-provider2" target="1.6" />
+      <module name="springboot-dubbo" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
